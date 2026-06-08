@@ -9,7 +9,7 @@ def greet_user():
 
 
 def simple_calculator():
-    print("Simple Calculator")
+    print("Simple Calc")
     print("Enter two numbers and an operator (+, -, *, /).\n")
     try:
         a = float(input("First number: "))
