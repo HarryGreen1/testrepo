@@ -5,7 +5,7 @@ def greet_user():
     name = input("What is your name? ").strip()
     if not name:
         name = "Friend"
-    print(f"Hello, {name}! Welcome to the Simple Helper program.\n")
+    print(f"Welcome, {name}! Welcome to the Simple Helper program.\n")
 
 
 def simple_calculator():
