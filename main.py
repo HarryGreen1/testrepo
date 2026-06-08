@@ -38,7 +38,7 @@ def guess_number():
     target = random.randint(1, 20)
     attempts = 0
     print("I'm thinking of a number between 1 and 20.")
-    while attempts < 5:
+    while attempts < 7:
         try:
             guess = int(input("Take a guess: "))
         except ValueError:
