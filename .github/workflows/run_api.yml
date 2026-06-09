@@ -3,7 +3,9 @@ name: Fetch API Data Automatically
 on:
   push:
     branches:
-      - main  
+      - main
+  schedule:
+    - cron: '0 0 * * *'
 
 jobs:
   run-python-script:
