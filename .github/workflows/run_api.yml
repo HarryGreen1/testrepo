@@ -31,9 +31,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_PAT }} 
         run: python main.py
 
-      - name: Generate Team CSV Reports
-        run: python export_team_reports.py
-
       - name: Generate Charts, Excel Reports, and Cleanup
         run: python generate_excel_reports.py
 
