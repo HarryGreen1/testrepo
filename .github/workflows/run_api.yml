@@ -35,7 +35,7 @@ jobs:
         run: python export_team_reports.py
 
       - name: Generate Charts, Excel Reports, and Cleanup
-        run: python generate_automated_charts.py
+        run: python generate_excel_reports.py
 
       - name: Upload Reports as Artifact
         uses: actions/upload-artifact@v4
