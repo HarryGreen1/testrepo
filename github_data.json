@@ -1,5 +1,169 @@
 [
     {
+        "sha": "9016a9219f2acc86c7d93eab28dd5ff38ddf45ec",
+        "node_id": "C_kwDOS0QPxtoAKDkwMTZhOTIxOWYyYWNjODZjN2Q5M2VhYjI4ZGQ1ZmYzOGRkZjQ1ZWM",
+        "commit": {
+            "author": {
+                "name": "Harry Green",
+                "email": "hagree999@gmail.com",
+                "date": "2026-06-09T09:23:43Z"
+            },
+            "committer": {
+                "name": "Harry Green",
+                "email": "hagree999@gmail.com",
+                "date": "2026-06-09T09:24:03Z"
+            },
+            "message": "added reports, teamreports and visualization",
+            "tree": {
+                "sha": "93b6c29e4a58325c1d75212a58ff835df7296580",
+                "url": "https://api.github.com/repos/HarryGreen1/testrepo/git/trees/93b6c29e4a58325c1d75212a58ff835df7296580"
+            },
+            "url": "https://api.github.com/repos/HarryGreen1/testrepo/git/commits/9016a9219f2acc86c7d93eab28dd5ff38ddf45ec",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/HarryGreen1/testrepo/commits/9016a9219f2acc86c7d93eab28dd5ff38ddf45ec",
+        "html_url": "https://github.com/HarryGreen1/testrepo/commit/9016a9219f2acc86c7d93eab28dd5ff38ddf45ec",
+        "comments_url": "https://api.github.com/repos/HarryGreen1/testrepo/commits/9016a9219f2acc86c7d93eab28dd5ff38ddf45ec/comments",
+        "author": {
+            "login": "HarryGreen1",
+            "id": 181404003,
+            "node_id": "U_kgDOCtABYw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/181404003?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/HarryGreen1",
+            "html_url": "https://github.com/HarryGreen1",
+            "followers_url": "https://api.github.com/users/HarryGreen1/followers",
+            "following_url": "https://api.github.com/users/HarryGreen1/following{/other_user}",
+            "gists_url": "https://api.github.com/users/HarryGreen1/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/HarryGreen1/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/HarryGreen1/subscriptions",
+            "organizations_url": "https://api.github.com/users/HarryGreen1/orgs",
+            "repos_url": "https://api.github.com/users/HarryGreen1/repos",
+            "events_url": "https://api.github.com/users/HarryGreen1/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/HarryGreen1/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "HarryGreen1",
+            "id": 181404003,
+            "node_id": "U_kgDOCtABYw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/181404003?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/HarryGreen1",
+            "html_url": "https://github.com/HarryGreen1",
+            "followers_url": "https://api.github.com/users/HarryGreen1/followers",
+            "following_url": "https://api.github.com/users/HarryGreen1/following{/other_user}",
+            "gists_url": "https://api.github.com/users/HarryGreen1/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/HarryGreen1/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/HarryGreen1/subscriptions",
+            "organizations_url": "https://api.github.com/users/HarryGreen1/orgs",
+            "repos_url": "https://api.github.com/users/HarryGreen1/repos",
+            "events_url": "https://api.github.com/users/HarryGreen1/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/HarryGreen1/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "1806e27c7cf9f06d4f679d87592a4240bec7e8d3",
+                "url": "https://api.github.com/repos/HarryGreen1/testrepo/commits/1806e27c7cf9f06d4f679d87592a4240bec7e8d3",
+                "html_url": "https://github.com/HarryGreen1/testrepo/commit/1806e27c7cf9f06d4f679d87592a4240bec7e8d3"
+            }
+        ]
+    },
+    {
+        "sha": "1806e27c7cf9f06d4f679d87592a4240bec7e8d3",
+        "node_id": "C_kwDOS0QPxtoAKDE4MDZlMjdjN2NmOWYwNmQ0ZjY3OWQ4NzU5MmE0MjQwYmVjN2U4ZDM",
+        "commit": {
+            "author": {
+                "name": "github-actions[bot]",
+                "email": "github-actions[bot]@users.noreply.github.com",
+                "date": "2026-06-09T08:03:43Z"
+            },
+            "committer": {
+                "name": "github-actions[bot]",
+                "email": "github-actions[bot]@users.noreply.github.com",
+                "date": "2026-06-09T08:03:43Z"
+            },
+            "message": "Auto-fetch latest API data",
+            "tree": {
+                "sha": "4fce73a40d16da46a2b6b3699cb1993edb6cf698",
+                "url": "https://api.github.com/repos/HarryGreen1/testrepo/git/trees/4fce73a40d16da46a2b6b3699cb1993edb6cf698"
+            },
+            "url": "https://api.github.com/repos/HarryGreen1/testrepo/git/commits/1806e27c7cf9f06d4f679d87592a4240bec7e8d3",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/HarryGreen1/testrepo/commits/1806e27c7cf9f06d4f679d87592a4240bec7e8d3",
+        "html_url": "https://github.com/HarryGreen1/testrepo/commit/1806e27c7cf9f06d4f679d87592a4240bec7e8d3",
+        "comments_url": "https://api.github.com/repos/HarryGreen1/testrepo/commits/1806e27c7cf9f06d4f679d87592a4240bec7e8d3/comments",
+        "author": {
+            "login": "github-actions[bot]",
+            "id": 41898282,
+            "node_id": "MDM6Qm90NDE4OTgyODI=",
+            "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+            "html_url": "https://github.com/apps/github-actions",
+            "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+            "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+            "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+            "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+            "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+            "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+            "type": "Bot",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "github-actions[bot]",
+            "id": 41898282,
+            "node_id": "MDM6Qm90NDE4OTgyODI=",
+            "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+            "html_url": "https://github.com/apps/github-actions",
+            "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+            "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+            "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+            "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+            "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+            "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+            "type": "Bot",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "888cddaf47a81db40270942c82fdd5fcb5a9b6f7",
+                "url": "https://api.github.com/repos/HarryGreen1/testrepo/commits/888cddaf47a81db40270942c82fdd5fcb5a9b6f7",
+                "html_url": "https://github.com/HarryGreen1/testrepo/commit/888cddaf47a81db40270942c82fdd5fcb5a9b6f7"
+            }
+        ]
+    },
+    {
         "sha": "888cddaf47a81db40270942c82fdd5fcb5a9b6f7",
         "node_id": "C_kwDOS0QPxtoAKDg4OGNkZGFmNDdhODFkYjQwMjcwOTQyYzgyZmRkNWZjYjVhOWI2Zjc",
         "commit": {
