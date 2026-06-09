@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 0 * * *' # Runs every night at midnight UTC
+    - cron: '0 0 * * *'
 
 permissions:
   contents: write
@@ -34,7 +34,7 @@ jobs:
       - name: Generate Team CSV Reports
         run: python export_team_reports.py
 
-      - name: Generate Team Charts
+      - name: Generate Charts, Excel Reports, and Cleanup
         run: python generate_automated_charts.py
 
       - name: Upload Reports as Artifact
@@ -42,4 +42,4 @@ jobs:
         with:
           name: Monthly-Team-AI-Reports 
           path: Team_Reports/           
-          retention-days: 7             
+          retention-days: 7
