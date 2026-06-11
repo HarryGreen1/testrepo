@@ -52,19 +52,19 @@ jobs:
       - name: Generate Executive Excel Reports and Cleanup
         run: python generate_excel_reports.py
 
-      #- name: Run Nightly Budget Threshold Checks
-      #  env:
-      #    TARGET_USER: ${{ inputs.target_user }}
-      #    NEW_LIMIT: ${{ inputs.new_limit }}
-      #    COST_CENTER: ${{ inputs.cost_center }}
-      #  run: python manage_budgets.py
+      - name: Run Nightly Budget Threshold Checks
+        env:
+          TARGET_USER: ${{ inputs.target_user }}
+          NEW_LIMIT: ${{ inputs.new_limit }}
+          COST_CENTER: ${{ inputs.cost_center }}
+        run: python manage_budgets.py
         
-      #- name: Save State and Budget Modifications
-      #  run: |
-      #    git config --local user.name "github-actions[bot]"
-      #    git config --local user.email "github-actions[bot]@users.noreply.github.com"
-      #    git add mock_budgets.json
-      #    git diff --quiet && git diff --staged --quiet || (git commit -m "Update budget state" && git push)
+      - name: Save State and Budget Modifications
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add mock_budgets.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update budget state" && git push)
 
       - name: Upload Reports as Artifact
         uses: actions/upload-artifact@v4
