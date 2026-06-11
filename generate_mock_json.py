@@ -36,7 +36,7 @@ for cc_name in unique_ccs:
     # B. Calculate the dynamic budget based on team size
     individual_cap = 150
     # Sum of all players + $200 unallocated buffer for admins to play with
-    dynamic_team_budget = (len(team_users) * individual_cap) + 200 
+    dynamic_team_budget = (len(team_users) * individual_cap) 
     
     # C. Add the Cost Center Budget using the calculated amount (NO LONGER HARDCODED)
     budgets_list.append({

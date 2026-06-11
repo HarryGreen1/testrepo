@@ -4,7 +4,7 @@
       "id": "cc-napoli-budget",
       "target_name": "Napoli",
       "budget_scope": "cost_center",
-      "budget_amount": 1100,
+      "budget_amount": 900,
       "prevent_further_usage": true,
       "budget_alerting": {
         "will_alert": true,
@@ -107,7 +107,7 @@
       "id": "cc-barcelona-budget",
       "target_name": "Barcelona",
       "budget_scope": "cost_center",
-      "budget_amount": 1250,
+      "budget_amount": 1050,
       "prevent_further_usage": true,
       "budget_alerting": {
         "will_alert": true,
@@ -225,7 +225,7 @@
       "id": "cc-porto-budget",
       "target_name": "Porto",
       "budget_scope": "cost_center",
-      "budget_amount": 1400,
+      "budget_amount": 1200,
       "prevent_further_usage": true,
       "budget_alerting": {
         "will_alert": true,
@@ -358,7 +358,7 @@
       "id": "cc-sevilla-budget",
       "target_name": "Sevilla",
       "budget_scope": "cost_center",
-      "budget_amount": 950,
+      "budget_amount": 750,
       "prevent_further_usage": true,
       "budget_alerting": {
         "will_alert": true,
@@ -446,7 +446,7 @@
       "id": "cc-arsenal-budget",
       "target_name": "Arsenal",
       "budget_scope": "cost_center",
-      "budget_amount": 1100,
+      "budget_amount": 900,
       "prevent_further_usage": true,
       "budget_alerting": {
         "will_alert": true,
@@ -549,7 +549,7 @@
       "id": "cc-benfica-budget",
       "target_name": "Benfica",
       "budget_scope": "cost_center",
-      "budget_amount": 950,
+      "budget_amount": 750,
       "prevent_further_usage": true,
       "budget_alerting": {
         "will_alert": true,
@@ -637,7 +637,7 @@
       "id": "cc-borussia_dortmund-budget",
       "target_name": "Borussia Dortmund",
       "budget_scope": "cost_center",
-      "budget_amount": 1550,
+      "budget_amount": 1350,
       "prevent_further_usage": true,
       "budget_alerting": {
         "will_alert": true,
@@ -785,7 +785,7 @@
       "id": "cc-liverpool-budget",
       "target_name": "Liverpool",
       "budget_scope": "cost_center",
-      "budget_amount": 1400,
+      "budget_amount": 1200,
       "prevent_further_usage": true,
       "budget_alerting": {
         "will_alert": true,
@@ -918,7 +918,7 @@
       "id": "cc-chelsea-budget",
       "target_name": "Chelsea",
       "budget_scope": "cost_center",
-      "budget_amount": 1550,
+      "budget_amount": 1350,
       "prevent_further_usage": true,
       "budget_alerting": {
         "will_alert": true,
@@ -1066,7 +1066,7 @@
       "id": "cc-juventus-budget",
       "target_name": "Juventus",
       "budget_scope": "cost_center",
-      "budget_amount": 1850,
+      "budget_amount": 1650,
       "prevent_further_usage": true,
       "budget_alerting": {
         "will_alert": true,
@@ -1244,7 +1244,7 @@
       "id": "cc-leicester_city-budget",
       "target_name": "Leicester City",
       "budget_scope": "cost_center",
-      "budget_amount": 1250,
+      "budget_amount": 1050,
       "prevent_further_usage": true,
       "budget_alerting": {
         "will_alert": true,
@@ -1362,7 +1362,7 @@
       "id": "cc-manchester_city-budget",
       "target_name": "Manchester City",
       "budget_scope": "cost_center",
-      "budget_amount": 1400,
+      "budget_amount": 1200,
       "prevent_further_usage": true,
       "budget_alerting": {
         "will_alert": true,
@@ -1495,7 +1495,7 @@
       "id": "cc-ac_milan-budget",
       "target_name": "AC Milan",
       "budget_scope": "cost_center",
-      "budget_amount": 1100,
+      "budget_amount": 900,
       "prevent_further_usage": true,
       "budget_alerting": {
         "will_alert": true,
@@ -1598,7 +1598,7 @@
       "id": "cc-inter_milan-budget",
       "target_name": "Inter Milan",
       "budget_scope": "cost_center",
-      "budget_amount": 800,
+      "budget_amount": 600,
       "prevent_further_usage": true,
       "budget_alerting": {
         "will_alert": true,
@@ -1671,7 +1671,7 @@
       "id": "cc-roma-budget",
       "target_name": "Roma",
       "budget_scope": "cost_center",
-      "budget_amount": 1100,
+      "budget_amount": 900,
       "prevent_further_usage": true,
       "budget_alerting": {
         "will_alert": true,
@@ -1774,7 +1774,7 @@
       "id": "cc-real_madrid-budget",
       "target_name": "Real Madrid",
       "budget_scope": "cost_center",
-      "budget_amount": 1250,
+      "budget_amount": 1050,
       "prevent_further_usage": true,
       "budget_alerting": {
         "will_alert": true,
@@ -1892,7 +1892,7 @@
       "id": "cc-bayern_munich-budget",
       "target_name": "Bayern Munich",
       "budget_scope": "cost_center",
-      "budget_amount": 1550,
+      "budget_amount": 1350,
       "prevent_further_usage": true,
       "budget_alerting": {
         "will_alert": true,
@@ -2040,7 +2040,7 @@
       "id": "cc-ajax-budget",
       "target_name": "Ajax",
       "budget_scope": "cost_center",
-      "budget_amount": 950,
+      "budget_amount": 750,
       "prevent_further_usage": true,
       "budget_alerting": {
         "will_alert": true,
@@ -2128,7 +2128,7 @@
       "id": "cc-psg-budget",
       "target_name": "PSG",
       "budget_scope": "cost_center",
-      "budget_amount": 1100,
+      "budget_amount": 900,
       "prevent_further_usage": true,
       "budget_alerting": {
         "will_alert": true,
@@ -2231,7 +2231,7 @@
       "id": "cc-atletico_madrid-budget",
       "target_name": "Atletico Madrid",
       "budget_scope": "cost_center",
-      "budget_amount": 1250,
+      "budget_amount": 1050,
       "prevent_further_usage": true,
       "budget_alerting": {
         "will_alert": true,
@@ -2328,9 +2328,7 @@
           "lionel-messi_fc@alfalaval.com"
         ]
       },
-      "notified_thresholds": [
-        50
-      ]
+      "notified_thresholds": []
     },
     {
       "id": "usr-budget-rafael-leao_fc",
