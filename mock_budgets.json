@@ -2244,7 +2244,7 @@
       "id": "usr-budget-kylian-mbappe_fc",
       "target_name": "kylian-mbappe_fc",
       "budget_scope": "user",
-      "budget_amount": 176.67,
+      "budget_amount": 150,
       "prevent_further_usage": false,
       "budget_alerting": {
         "will_alert": true,
@@ -2259,7 +2259,7 @@
       "id": "usr-budget-khvicha-kvaratskhelia_fc",
       "target_name": "khvicha-kvaratskhelia_fc",
       "budget_scope": "user",
-      "budget_amount": 176.67,
+      "budget_amount": 150,
       "prevent_further_usage": false,
       "budget_alerting": {
         "will_alert": true,
@@ -2274,7 +2274,7 @@
       "id": "usr-budget-rodri-hernandez_fc",
       "target_name": "rodri-hernandez_fc",
       "budget_scope": "user",
-      "budget_amount": 176.67,
+      "budget_amount": 150,
       "prevent_further_usage": false,
       "budget_alerting": {
         "will_alert": true,
@@ -2289,7 +2289,7 @@
       "id": "usr-budget-vinicius-junior_fc",
       "target_name": "vinicius-junior_fc",
       "budget_scope": "user",
-      "budget_amount": 176.67,
+      "budget_amount": 150,
       "prevent_further_usage": false,
       "budget_alerting": {
         "will_alert": true,
@@ -2304,7 +2304,7 @@
       "id": "usr-budget-ederson-moraes_fc",
       "target_name": "ederson-moraes_fc",
       "budget_scope": "user",
-      "budget_amount": 176.67,
+      "budget_amount": 150,
       "prevent_further_usage": false,
       "budget_alerting": {
         "will_alert": true,
@@ -2319,7 +2319,7 @@
       "id": "usr-budget-lionel-messi_fc",
       "target_name": "lionel-messi_fc",
       "budget_scope": "user",
-      "budget_amount": -10.0,
+      "budget_amount": 150,
       "prevent_further_usage": false,
       "budget_alerting": {
         "will_alert": true,
@@ -2328,15 +2328,13 @@
           "lionel-messi_fc@alfalaval.com"
         ]
       },
-      "notified_thresholds": [
-        50
-      ]
+      "notified_thresholds": []
     },
     {
       "id": "usr-budget-rafael-leao_fc",
       "target_name": "rafael-leao_fc",
       "budget_scope": "user",
-      "budget_amount": 176.67,
+      "budget_amount": 150,
       "prevent_further_usage": false,
       "budget_alerting": {
         "will_alert": true,
