@@ -1,9 +1,6 @@
 name: Fetch and Build Team AI Reports
 
 on:
-  schedule:
-    - cron: '0 0 * * *'
-
   workflow_dispatch:
     inputs:
       target_user:
