@@ -22,10 +22,20 @@ def update_user_budget_team_balanced(target_user, new_limit, cost_center_name):
         print("Error: Usage data file not found. Cannot validate spending constraints.")
         return
 
-    # Load usage data to get everyone's current spend for the watermark constraint
     df_usage = pd.read_csv(csv_file)
     df_usage['gross_amount'] = clean_gross_amount(df_usage['gross_amount'])
     user_spend = df_usage.groupby('username')['gross_amount'].sum().to_dict()
+
+    target_current_spend = user_spend.get(target_user, 0)
+    
+    if new_limit < 0:
+        print(f"CONSTRAINT VIOLATION: Cannot set a budget to a negative number (${new_limit}).")
+        return
+        
+    if new_limit < target_current_spend:
+        print(f"CONSTRAINT VIOLATION: Cannot reduce {target_user}'s budget to ${new_limit:.2f}.")
+        print(f"   They have already spent ${target_current_spend:.2f} this month.")
+        return
 
     with open(json_file, 'r') as f:
         data = json.load(f)
@@ -95,6 +105,7 @@ def update_user_budget_team_balanced(target_user, new_limit, cost_center_name):
     print(f"   -> {target_user} limit shifted from ${current_target_limit} to ${new_limit}")
     print(f"   -> The remaining ${difference} adjustment was split across {len(team_members)} team members (${split_share:.2f} each).")
 
+
 def run_pipeline():
     if not os.path.exists(csv_file) or not os.path.exists(json_file):
         print("Error: Missing database files.")
@@ -139,6 +150,7 @@ def run_pipeline():
     if state_updated:
         with open(json_file, 'w') as f:
             json.dump(budget_data, f, indent=2)
+
 
 if __name__ == "__main__":
 
