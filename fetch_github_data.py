@@ -1,7 +1,7 @@
 import pandas as pd
 import requests
 import os
-
+# CHANGE PLACEHOLDER NAMES BEFORE USING THIS!!!
 headers = {
     "Accept": "application/vnd.github+json",
     "Authorization": f"Bearer {os.getenv('GITHUB_TOKEN')}",

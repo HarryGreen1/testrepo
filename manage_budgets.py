@@ -12,11 +12,20 @@ def clean_gross_amount(series):
     return pd.to_numeric(clean_series, errors='coerce').fillna(0)
 
 def update_user_budget_team_balanced(target_user, new_limit, cost_center_name):
-    print(f"\n Admin Request: Change {target_user}'s limit to ${new_limit} inside Cost Center '{cost_center_name}'...")
+    print(f"\nAdmin Request: Change {target_user}'s limit to ${new_limit} inside Cost Center '{cost_center_name}'...")
     
     if not os.path.exists(json_file):
-        print(" Error: Budget configuration file not found.")
+        print("Error: Budget configuration file not found.")
         return
+
+    if not os.path.exists(csv_file):
+        print("Error: Usage data file not found. Cannot validate spending constraints.")
+        return
+
+    # Load usage data to get everyone's current spend for the watermark constraint
+    df_usage = pd.read_csv(csv_file)
+    df_usage['gross_amount'] = clean_gross_amount(df_usage['gross_amount'])
+    user_spend = df_usage.groupby('username')['gross_amount'].sum().to_dict()
 
     with open(json_file, 'r') as f:
         data = json.load(f)
@@ -38,7 +47,7 @@ def update_user_budget_team_balanced(target_user, new_limit, cost_center_name):
                     team_members.append(b) 
 
     if not target_item:
-        print(f" Modification Blocked: Could not find '{target_user}' inside Cost Center '{cost_center_name}'.")
+        print(f"Modification Blocked: Could not find '{target_user}' inside Cost Center '{cost_center_name}'.")
         return
 
     cc_budget_exists = False
@@ -49,26 +58,30 @@ def update_user_budget_team_balanced(target_user, new_limit, cost_center_name):
                 break
 
     if not cc_budget_exists:
-        print(f" CONSTRAINT VIOLATION: Cost Center '{cost_center_name}' has no defined budget allocation.")
+        print(f"CONSTRAINT VIOLATION: Cost Center '{cost_center_name}' has no defined budget allocation.")
         return
 
     current_target_limit = target_item['budget_amount']
     difference = new_limit - current_target_limit 
     if difference == 0:
-        print("ℹ No change in budget amount requested.")
+        print("Info: No change in budget amount requested.")
         return
         
     if not team_members:
-        print(" Error: No other team members exist to absorb or receive the balanced budget shift.")
+        print("Error: No other team members exist to absorb or receive the balanced budget shift.")
         return
 
     split_share = difference / len(team_members)
     
     if difference > 0: 
         for member in team_members:
-            if (member['budget_amount'] - split_share) < 0:
-                print(" CONSTRAINT VIOLATION: Transaction rolled back.")
-                print(f"   Increasing {target_user} by ${difference} would drop team member {member['target_name']} below $0.")
+            proposed_budget = member['budget_amount'] - split_share
+            current_spend = user_spend.get(member['target_name'], 0)
+            
+            if proposed_budget < 0 or proposed_budget < current_spend:
+                print("CONSTRAINT VIOLATION: Transaction rolled back.")
+                print(f"   Cannot reduce {member['target_name']}'s budget to ${proposed_budget:.2f}.")
+                print(f"   They have already spent ${current_spend:.2f} this month.")
                 return
 
     target_item['budget_amount'] = new_limit
@@ -78,7 +91,7 @@ def update_user_budget_team_balanced(target_user, new_limit, cost_center_name):
     with open(json_file, 'w') as f:
         json.dump(data, f, indent=2)
         
-    print(f" Success! Distributed Zero-Sum modification saved.")
+    print("Success! Distributed Zero-Sum modification saved.")
     print(f"   -> {target_user} limit shifted from ${current_target_limit} to ${new_limit}")
     print(f"   -> The remaining ${difference} adjustment was split across {len(team_members)} team members (${split_share:.2f} each).")
 
@@ -127,8 +140,6 @@ def run_pipeline():
         with open(json_file, 'w') as f:
             json.dump(budget_data, f, indent=2)
 
-import os
-
 if __name__ == "__main__":
 
     target = os.getenv("TARGET_USER")
@@ -139,7 +150,7 @@ if __name__ == "__main__":
         try:
             update_user_budget_team_balanced(target, float(new_limit_str), cc_name)
         except ValueError:
-            print(" Error: New limit must be a number.")
+            print("Error: New limit must be a number.")
 
     run_pipeline()
     print("Done!")

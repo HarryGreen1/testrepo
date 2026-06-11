@@ -20,7 +20,7 @@ df['cost_center_name'] = df['cost_center_name'].fillna("Unknown_Team")
 # Get unique Cost Centers
 unique_ccs = df['cost_center_name'].unique().tolist()
 
-print(f"🔍 Found {len(unique_ccs)} Cost Centers in the CSV.")
+print(f"Found {len(unique_ccs)} Cost Centers in the CSV.")
 
 # 2. Build the GitHub-compliant budget structure
 budgets_list = []
