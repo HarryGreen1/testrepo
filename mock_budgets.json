@@ -1,0 +1,2351 @@
+{
+  "budgets": [
+    {
+      "id": "cc-napoli-budget",
+      "target_name": "Napoli",
+      "budget_scope": "cost_center",
+      "budget_amount": 1100,
+      "prevent_further_usage": true,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_napoli@alfalaval.com"
+        ]
+      }
+    },
+    {
+      "id": "usr-budget-karim-benzema_fc",
+      "target_name": "karim-benzema_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_napoli@alfalaval.com",
+          "karim-benzema_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-kevin-debruyne_fc",
+      "target_name": "kevin-debruyne_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_napoli@alfalaval.com",
+          "kevin-debruyne_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-cristiano-ronaldo_fc",
+      "target_name": "cristiano-ronaldo_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_napoli@alfalaval.com",
+          "cristiano-ronaldo_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-pedri-gonzalez_fc",
+      "target_name": "pedri-gonzalez_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_napoli@alfalaval.com",
+          "pedri-gonzalez_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-federico-chiesa_fc",
+      "target_name": "federico-chiesa_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_napoli@alfalaval.com",
+          "federico-chiesa_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-bukayo-saka_fc",
+      "target_name": "bukayo-saka_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_napoli@alfalaval.com",
+          "bukayo-saka_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "cc-barcelona-budget",
+      "target_name": "Barcelona",
+      "budget_scope": "cost_center",
+      "budget_amount": 1250,
+      "prevent_further_usage": true,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_barcelona@alfalaval.com"
+        ]
+      }
+    },
+    {
+      "id": "usr-budget-marcus-rashford_fc",
+      "target_name": "marcus-rashford_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_barcelona@alfalaval.com",
+          "marcus-rashford_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-antoine-griezmann_fc",
+      "target_name": "antoine-griezmann_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_barcelona@alfalaval.com",
+          "antoine-griezmann_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-federico-chiesa_fc",
+      "target_name": "federico-chiesa_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_barcelona@alfalaval.com",
+          "federico-chiesa_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-lionel-messi_fc",
+      "target_name": "lionel-messi_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_barcelona@alfalaval.com",
+          "lionel-messi_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-ederson-moraes_fc",
+      "target_name": "ederson-moraes_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_barcelona@alfalaval.com",
+          "ederson-moraes_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-luka-modric_fc",
+      "target_name": "luka-modric_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_barcelona@alfalaval.com",
+          "luka-modric_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-karim-benzema_fc",
+      "target_name": "karim-benzema_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_barcelona@alfalaval.com",
+          "karim-benzema_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "cc-porto-budget",
+      "target_name": "Porto",
+      "budget_scope": "cost_center",
+      "budget_amount": 1400,
+      "prevent_further_usage": true,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_porto@alfalaval.com"
+        ]
+      }
+    },
+    {
+      "id": "usr-budget-robert-lewandowski_fc",
+      "target_name": "robert-lewandowski_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_porto@alfalaval.com",
+          "robert-lewandowski_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-federico-chiesa_fc",
+      "target_name": "federico-chiesa_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_porto@alfalaval.com",
+          "federico-chiesa_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-virgil-vandijk_fc",
+      "target_name": "virgil-vandijk_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_porto@alfalaval.com",
+          "virgil-vandijk_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-khvicha-kvaratskhelia_fc",
+      "target_name": "khvicha-kvaratskhelia_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_porto@alfalaval.com",
+          "khvicha-kvaratskhelia_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-lamine-yamal_fc",
+      "target_name": "lamine-yamal_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_porto@alfalaval.com",
+          "lamine-yamal_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-kevin-debruyne_fc",
+      "target_name": "kevin-debruyne_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_porto@alfalaval.com",
+          "kevin-debruyne_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-florian-wirtz_fc",
+      "target_name": "florian-wirtz_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_porto@alfalaval.com",
+          "florian-wirtz_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-pedri-gonzalez_fc",
+      "target_name": "pedri-gonzalez_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_porto@alfalaval.com",
+          "pedri-gonzalez_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "cc-sevilla-budget",
+      "target_name": "Sevilla",
+      "budget_scope": "cost_center",
+      "budget_amount": 950,
+      "prevent_further_usage": true,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_sevilla@alfalaval.com"
+        ]
+      }
+    },
+    {
+      "id": "usr-budget-toni-kroos_fc",
+      "target_name": "toni-kroos_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_sevilla@alfalaval.com",
+          "toni-kroos_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-erling-haaland_fc",
+      "target_name": "erling-haaland_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_sevilla@alfalaval.com",
+          "erling-haaland_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-vinicius-junior_fc",
+      "target_name": "vinicius-junior_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_sevilla@alfalaval.com",
+          "vinicius-junior_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-bukayo-saka_fc",
+      "target_name": "bukayo-saka_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_sevilla@alfalaval.com",
+          "bukayo-saka_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-jude-bellingham_fc",
+      "target_name": "jude-bellingham_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_sevilla@alfalaval.com",
+          "jude-bellingham_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "cc-arsenal-budget",
+      "target_name": "Arsenal",
+      "budget_scope": "cost_center",
+      "budget_amount": 1100,
+      "prevent_further_usage": true,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_arsenal@alfalaval.com"
+        ]
+      }
+    },
+    {
+      "id": "usr-budget-marcus-rashford_fc",
+      "target_name": "marcus-rashford_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_arsenal@alfalaval.com",
+          "marcus-rashford_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-bukayo-saka_fc",
+      "target_name": "bukayo-saka_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_arsenal@alfalaval.com",
+          "bukayo-saka_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-ederson-moraes_fc",
+      "target_name": "ederson-moraes_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_arsenal@alfalaval.com",
+          "ederson-moraes_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-lionel-messi_fc",
+      "target_name": "lionel-messi_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_arsenal@alfalaval.com",
+          "lionel-messi_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-rafael-leao_fc",
+      "target_name": "rafael-leao_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_arsenal@alfalaval.com",
+          "rafael-leao_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-robert-lewandowski_fc",
+      "target_name": "robert-lewandowski_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_arsenal@alfalaval.com",
+          "robert-lewandowski_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "cc-benfica-budget",
+      "target_name": "Benfica",
+      "budget_scope": "cost_center",
+      "budget_amount": 950,
+      "prevent_further_usage": true,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_benfica@alfalaval.com"
+        ]
+      }
+    },
+    {
+      "id": "usr-budget-casemiro_fc",
+      "target_name": "casemiro_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_benfica@alfalaval.com",
+          "casemiro_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-lamine-yamal_fc",
+      "target_name": "lamine-yamal_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_benfica@alfalaval.com",
+          "lamine-yamal_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-ederson-moraes_fc",
+      "target_name": "ederson-moraes_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_benfica@alfalaval.com",
+          "ederson-moraes_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-bukayo-saka_fc",
+      "target_name": "bukayo-saka_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_benfica@alfalaval.com",
+          "bukayo-saka_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-lionel-messi_fc",
+      "target_name": "lionel-messi_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_benfica@alfalaval.com",
+          "lionel-messi_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "cc-borussia_dortmund-budget",
+      "target_name": "Borussia Dortmund",
+      "budget_scope": "cost_center",
+      "budget_amount": 1550,
+      "prevent_further_usage": true,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_borussia_dortmund@alfalaval.com"
+        ]
+      }
+    },
+    {
+      "id": "usr-budget-antoine-griezmann_fc",
+      "target_name": "antoine-griezmann_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_borussia_dortmund@alfalaval.com",
+          "antoine-griezmann_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-harry-kane_fc",
+      "target_name": "harry-kane_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_borussia_dortmund@alfalaval.com",
+          "harry-kane_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-pedri-gonzalez_fc",
+      "target_name": "pedri-gonzalez_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_borussia_dortmund@alfalaval.com",
+          "pedri-gonzalez_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-lamine-yamal_fc",
+      "target_name": "lamine-yamal_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_borussia_dortmund@alfalaval.com",
+          "lamine-yamal_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-rafael-leao_fc",
+      "target_name": "rafael-leao_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_borussia_dortmund@alfalaval.com",
+          "rafael-leao_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-lionel-messi_fc",
+      "target_name": "lionel-messi_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_borussia_dortmund@alfalaval.com",
+          "lionel-messi_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-alisson-becker_fc",
+      "target_name": "alisson-becker_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_borussia_dortmund@alfalaval.com",
+          "alisson-becker_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-karim-benzema_fc",
+      "target_name": "karim-benzema_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_borussia_dortmund@alfalaval.com",
+          "karim-benzema_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-victor-osimhen_fc",
+      "target_name": "victor-osimhen_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_borussia_dortmund@alfalaval.com",
+          "victor-osimhen_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "cc-liverpool-budget",
+      "target_name": "Liverpool",
+      "budget_scope": "cost_center",
+      "budget_amount": 1400,
+      "prevent_further_usage": true,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_liverpool@alfalaval.com"
+        ]
+      }
+    },
+    {
+      "id": "usr-budget-toni-kroos_fc",
+      "target_name": "toni-kroos_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_liverpool@alfalaval.com",
+          "toni-kroos_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-marcus-rashford_fc",
+      "target_name": "marcus-rashford_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_liverpool@alfalaval.com",
+          "marcus-rashford_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-vinicius-junior_fc",
+      "target_name": "vinicius-junior_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_liverpool@alfalaval.com",
+          "vinicius-junior_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-kylian-mbappe_fc",
+      "target_name": "kylian-mbappe_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_liverpool@alfalaval.com",
+          "kylian-mbappe_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-pedri-gonzalez_fc",
+      "target_name": "pedri-gonzalez_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_liverpool@alfalaval.com",
+          "pedri-gonzalez_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-erling-haaland_fc",
+      "target_name": "erling-haaland_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_liverpool@alfalaval.com",
+          "erling-haaland_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-robert-lewandowski_fc",
+      "target_name": "robert-lewandowski_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_liverpool@alfalaval.com",
+          "robert-lewandowski_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-karim-benzema_fc",
+      "target_name": "karim-benzema_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_liverpool@alfalaval.com",
+          "karim-benzema_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "cc-chelsea-budget",
+      "target_name": "Chelsea",
+      "budget_scope": "cost_center",
+      "budget_amount": 1550,
+      "prevent_further_usage": true,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_chelsea@alfalaval.com"
+        ]
+      }
+    },
+    {
+      "id": "usr-budget-marcus-rashford_fc",
+      "target_name": "marcus-rashford_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_chelsea@alfalaval.com",
+          "marcus-rashford_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-kylian-mbappe_fc",
+      "target_name": "kylian-mbappe_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_chelsea@alfalaval.com",
+          "kylian-mbappe_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-alisson-becker_fc",
+      "target_name": "alisson-becker_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_chelsea@alfalaval.com",
+          "alisson-becker_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-khvicha-kvaratskhelia_fc",
+      "target_name": "khvicha-kvaratskhelia_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_chelsea@alfalaval.com",
+          "khvicha-kvaratskhelia_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-toni-kroos_fc",
+      "target_name": "toni-kroos_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_chelsea@alfalaval.com",
+          "toni-kroos_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-kevin-debruyne_fc",
+      "target_name": "kevin-debruyne_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_chelsea@alfalaval.com",
+          "kevin-debruyne_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-bukayo-saka_fc",
+      "target_name": "bukayo-saka_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_chelsea@alfalaval.com",
+          "bukayo-saka_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-pedri-gonzalez_fc",
+      "target_name": "pedri-gonzalez_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_chelsea@alfalaval.com",
+          "pedri-gonzalez_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-robert-lewandowski_fc",
+      "target_name": "robert-lewandowski_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_chelsea@alfalaval.com",
+          "robert-lewandowski_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "cc-juventus-budget",
+      "target_name": "Juventus",
+      "budget_scope": "cost_center",
+      "budget_amount": 1850,
+      "prevent_further_usage": true,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_juventus@alfalaval.com"
+        ]
+      }
+    },
+    {
+      "id": "usr-budget-kevin-debruyne_fc",
+      "target_name": "kevin-debruyne_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_juventus@alfalaval.com",
+          "kevin-debruyne_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-kylian-mbappe_fc",
+      "target_name": "kylian-mbappe_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_juventus@alfalaval.com",
+          "kylian-mbappe_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-rodri-hernandez_fc",
+      "target_name": "rodri-hernandez_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_juventus@alfalaval.com",
+          "rodri-hernandez_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-lionel-messi_fc",
+      "target_name": "lionel-messi_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_juventus@alfalaval.com",
+          "lionel-messi_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-florian-wirtz_fc",
+      "target_name": "florian-wirtz_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_juventus@alfalaval.com",
+          "florian-wirtz_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-robert-lewandowski_fc",
+      "target_name": "robert-lewandowski_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_juventus@alfalaval.com",
+          "robert-lewandowski_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-ederson-moraes_fc",
+      "target_name": "ederson-moraes_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_juventus@alfalaval.com",
+          "ederson-moraes_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-khvicha-kvaratskhelia_fc",
+      "target_name": "khvicha-kvaratskhelia_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_juventus@alfalaval.com",
+          "khvicha-kvaratskhelia_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-victor-osimhen_fc",
+      "target_name": "victor-osimhen_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_juventus@alfalaval.com",
+          "victor-osimhen_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-neymar-jr_fc",
+      "target_name": "neymar-jr_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_juventus@alfalaval.com",
+          "neymar-jr_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-cristiano-ronaldo_fc",
+      "target_name": "cristiano-ronaldo_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_juventus@alfalaval.com",
+          "cristiano-ronaldo_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "cc-leicester_city-budget",
+      "target_name": "Leicester City",
+      "budget_scope": "cost_center",
+      "budget_amount": 1250,
+      "prevent_further_usage": true,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_leicester_city@alfalaval.com"
+        ]
+      }
+    },
+    {
+      "id": "usr-budget-antoine-griezmann_fc",
+      "target_name": "antoine-griezmann_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_leicester_city@alfalaval.com",
+          "antoine-griezmann_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-alisson-becker_fc",
+      "target_name": "alisson-becker_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_leicester_city@alfalaval.com",
+          "alisson-becker_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-khvicha-kvaratskhelia_fc",
+      "target_name": "khvicha-kvaratskhelia_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_leicester_city@alfalaval.com",
+          "khvicha-kvaratskhelia_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-neymar-jr_fc",
+      "target_name": "neymar-jr_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_leicester_city@alfalaval.com",
+          "neymar-jr_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-rafael-leao_fc",
+      "target_name": "rafael-leao_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_leicester_city@alfalaval.com",
+          "rafael-leao_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-bukayo-saka_fc",
+      "target_name": "bukayo-saka_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_leicester_city@alfalaval.com",
+          "bukayo-saka_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-luka-modric_fc",
+      "target_name": "luka-modric_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_leicester_city@alfalaval.com",
+          "luka-modric_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "cc-manchester_city-budget",
+      "target_name": "Manchester City",
+      "budget_scope": "cost_center",
+      "budget_amount": 1400,
+      "prevent_further_usage": true,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_manchester_city@alfalaval.com"
+        ]
+      }
+    },
+    {
+      "id": "usr-budget-florian-wirtz_fc",
+      "target_name": "florian-wirtz_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_manchester_city@alfalaval.com",
+          "florian-wirtz_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-harry-kane_fc",
+      "target_name": "harry-kane_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_manchester_city@alfalaval.com",
+          "harry-kane_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-jude-bellingham_fc",
+      "target_name": "jude-bellingham_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_manchester_city@alfalaval.com",
+          "jude-bellingham_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-antoine-griezmann_fc",
+      "target_name": "antoine-griezmann_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_manchester_city@alfalaval.com",
+          "antoine-griezmann_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-kylian-mbappe_fc",
+      "target_name": "kylian-mbappe_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_manchester_city@alfalaval.com",
+          "kylian-mbappe_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-federico-chiesa_fc",
+      "target_name": "federico-chiesa_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_manchester_city@alfalaval.com",
+          "federico-chiesa_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-robert-lewandowski_fc",
+      "target_name": "robert-lewandowski_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_manchester_city@alfalaval.com",
+          "robert-lewandowski_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-bukayo-saka_fc",
+      "target_name": "bukayo-saka_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_manchester_city@alfalaval.com",
+          "bukayo-saka_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "cc-ac_milan-budget",
+      "target_name": "AC Milan",
+      "budget_scope": "cost_center",
+      "budget_amount": 1100,
+      "prevent_further_usage": true,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_ac_milan@alfalaval.com"
+        ]
+      }
+    },
+    {
+      "id": "usr-budget-vinicius-junior_fc",
+      "target_name": "vinicius-junior_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_ac_milan@alfalaval.com",
+          "vinicius-junior_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-bukayo-saka_fc",
+      "target_name": "bukayo-saka_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_ac_milan@alfalaval.com",
+          "bukayo-saka_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-marcus-rashford_fc",
+      "target_name": "marcus-rashford_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_ac_milan@alfalaval.com",
+          "marcus-rashford_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-cristiano-ronaldo_fc",
+      "target_name": "cristiano-ronaldo_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_ac_milan@alfalaval.com",
+          "cristiano-ronaldo_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-luka-modric_fc",
+      "target_name": "luka-modric_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_ac_milan@alfalaval.com",
+          "luka-modric_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-erling-haaland_fc",
+      "target_name": "erling-haaland_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_ac_milan@alfalaval.com",
+          "erling-haaland_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "cc-inter_milan-budget",
+      "target_name": "Inter Milan",
+      "budget_scope": "cost_center",
+      "budget_amount": 800,
+      "prevent_further_usage": true,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_inter_milan@alfalaval.com"
+        ]
+      }
+    },
+    {
+      "id": "usr-budget-antoine-griezmann_fc",
+      "target_name": "antoine-griezmann_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_inter_milan@alfalaval.com",
+          "antoine-griezmann_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-ederson-moraes_fc",
+      "target_name": "ederson-moraes_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_inter_milan@alfalaval.com",
+          "ederson-moraes_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-pedri-gonzalez_fc",
+      "target_name": "pedri-gonzalez_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_inter_milan@alfalaval.com",
+          "pedri-gonzalez_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-casemiro_fc",
+      "target_name": "casemiro_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_inter_milan@alfalaval.com",
+          "casemiro_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "cc-roma-budget",
+      "target_name": "Roma",
+      "budget_scope": "cost_center",
+      "budget_amount": 1100,
+      "prevent_further_usage": true,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_roma@alfalaval.com"
+        ]
+      }
+    },
+    {
+      "id": "usr-budget-lamine-yamal_fc",
+      "target_name": "lamine-yamal_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_roma@alfalaval.com",
+          "lamine-yamal_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-victor-osimhen_fc",
+      "target_name": "victor-osimhen_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_roma@alfalaval.com",
+          "victor-osimhen_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-lionel-messi_fc",
+      "target_name": "lionel-messi_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_roma@alfalaval.com",
+          "lionel-messi_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-federico-chiesa_fc",
+      "target_name": "federico-chiesa_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_roma@alfalaval.com",
+          "federico-chiesa_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-khvicha-kvaratskhelia_fc",
+      "target_name": "khvicha-kvaratskhelia_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_roma@alfalaval.com",
+          "khvicha-kvaratskhelia_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-karim-benzema_fc",
+      "target_name": "karim-benzema_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_roma@alfalaval.com",
+          "karim-benzema_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "cc-real_madrid-budget",
+      "target_name": "Real Madrid",
+      "budget_scope": "cost_center",
+      "budget_amount": 1250,
+      "prevent_further_usage": true,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_real_madrid@alfalaval.com"
+        ]
+      }
+    },
+    {
+      "id": "usr-budget-kevin-debruyne_fc",
+      "target_name": "kevin-debruyne_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_real_madrid@alfalaval.com",
+          "kevin-debruyne_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-luka-modric_fc",
+      "target_name": "luka-modric_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_real_madrid@alfalaval.com",
+          "luka-modric_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-harry-kane_fc",
+      "target_name": "harry-kane_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_real_madrid@alfalaval.com",
+          "harry-kane_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-pedri-gonzalez_fc",
+      "target_name": "pedri-gonzalez_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_real_madrid@alfalaval.com",
+          "pedri-gonzalez_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-cristiano-ronaldo_fc",
+      "target_name": "cristiano-ronaldo_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_real_madrid@alfalaval.com",
+          "cristiano-ronaldo_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-antoine-griezmann_fc",
+      "target_name": "antoine-griezmann_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_real_madrid@alfalaval.com",
+          "antoine-griezmann_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-marcus-rashford_fc",
+      "target_name": "marcus-rashford_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_real_madrid@alfalaval.com",
+          "marcus-rashford_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "cc-bayern_munich-budget",
+      "target_name": "Bayern Munich",
+      "budget_scope": "cost_center",
+      "budget_amount": 1550,
+      "prevent_further_usage": true,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_bayern_munich@alfalaval.com"
+        ]
+      }
+    },
+    {
+      "id": "usr-budget-vinicius-junior_fc",
+      "target_name": "vinicius-junior_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_bayern_munich@alfalaval.com",
+          "vinicius-junior_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-jude-bellingham_fc",
+      "target_name": "jude-bellingham_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_bayern_munich@alfalaval.com",
+          "jude-bellingham_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-lionel-messi_fc",
+      "target_name": "lionel-messi_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_bayern_munich@alfalaval.com",
+          "lionel-messi_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-marcus-rashford_fc",
+      "target_name": "marcus-rashford_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_bayern_munich@alfalaval.com",
+          "marcus-rashford_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-phil-foden_fc",
+      "target_name": "phil-foden_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_bayern_munich@alfalaval.com",
+          "phil-foden_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-thibaut-courtois_fc",
+      "target_name": "thibaut-courtois_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_bayern_munich@alfalaval.com",
+          "thibaut-courtois_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-rodri-hernandez_fc",
+      "target_name": "rodri-hernandez_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_bayern_munich@alfalaval.com",
+          "rodri-hernandez_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-casemiro_fc",
+      "target_name": "casemiro_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_bayern_munich@alfalaval.com",
+          "casemiro_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-ederson-moraes_fc",
+      "target_name": "ederson-moraes_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_bayern_munich@alfalaval.com",
+          "ederson-moraes_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "cc-ajax-budget",
+      "target_name": "Ajax",
+      "budget_scope": "cost_center",
+      "budget_amount": 950,
+      "prevent_further_usage": true,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_ajax@alfalaval.com"
+        ]
+      }
+    },
+    {
+      "id": "usr-budget-rafael-leao_fc",
+      "target_name": "rafael-leao_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_ajax@alfalaval.com",
+          "rafael-leao_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-bukayo-saka_fc",
+      "target_name": "bukayo-saka_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_ajax@alfalaval.com",
+          "bukayo-saka_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-robert-lewandowski_fc",
+      "target_name": "robert-lewandowski_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_ajax@alfalaval.com",
+          "robert-lewandowski_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-kylian-mbappe_fc",
+      "target_name": "kylian-mbappe_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_ajax@alfalaval.com",
+          "kylian-mbappe_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-vinicius-junior_fc",
+      "target_name": "vinicius-junior_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_ajax@alfalaval.com",
+          "vinicius-junior_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "cc-psg-budget",
+      "target_name": "PSG",
+      "budget_scope": "cost_center",
+      "budget_amount": 1100,
+      "prevent_further_usage": true,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_psg@alfalaval.com"
+        ]
+      }
+    },
+    {
+      "id": "usr-budget-neymar-jr_fc",
+      "target_name": "neymar-jr_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_psg@alfalaval.com",
+          "neymar-jr_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-virgil-vandijk_fc",
+      "target_name": "virgil-vandijk_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_psg@alfalaval.com",
+          "virgil-vandijk_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-victor-osimhen_fc",
+      "target_name": "victor-osimhen_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_psg@alfalaval.com",
+          "victor-osimhen_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-jude-bellingham_fc",
+      "target_name": "jude-bellingham_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_psg@alfalaval.com",
+          "jude-bellingham_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-kylian-mbappe_fc",
+      "target_name": "kylian-mbappe_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_psg@alfalaval.com",
+          "kylian-mbappe_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-pedri-gonzalez_fc",
+      "target_name": "pedri-gonzalez_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_psg@alfalaval.com",
+          "pedri-gonzalez_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "cc-atletico_madrid-budget",
+      "target_name": "Atletico Madrid",
+      "budget_scope": "cost_center",
+      "budget_amount": 1250,
+      "prevent_further_usage": true,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_atletico_madrid@alfalaval.com"
+        ]
+      }
+    },
+    {
+      "id": "usr-budget-kylian-mbappe_fc",
+      "target_name": "kylian-mbappe_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_atletico_madrid@alfalaval.com",
+          "kylian-mbappe_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-khvicha-kvaratskhelia_fc",
+      "target_name": "khvicha-kvaratskhelia_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_atletico_madrid@alfalaval.com",
+          "khvicha-kvaratskhelia_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-rodri-hernandez_fc",
+      "target_name": "rodri-hernandez_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_atletico_madrid@alfalaval.com",
+          "rodri-hernandez_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-vinicius-junior_fc",
+      "target_name": "vinicius-junior_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_atletico_madrid@alfalaval.com",
+          "vinicius-junior_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-ederson-moraes_fc",
+      "target_name": "ederson-moraes_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_atletico_madrid@alfalaval.com",
+          "ederson-moraes_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    },
+    {
+      "id": "usr-budget-lionel-messi_fc",
+      "target_name": "lionel-messi_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_atletico_madrid@alfalaval.com",
+          "lionel-messi_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": [
+        50
+      ]
+    },
+    {
+      "id": "usr-budget-rafael-leao_fc",
+      "target_name": "rafael-leao_fc",
+      "budget_scope": "user",
+      "budget_amount": 150,
+      "prevent_further_usage": false,
+      "budget_alerting": {
+        "will_alert": true,
+        "alert_recipients": [
+          "manager_atletico_madrid@alfalaval.com",
+          "rafael-leao_fc@alfalaval.com"
+        ]
+      },
+      "notified_thresholds": []
+    }
+  ]
+}
