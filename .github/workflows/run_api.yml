@@ -41,11 +41,6 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Execute API Script
-        env:
-          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_PAT }} 
-        run: python main.py
-
       - name: Generate Charts, Excel Reports, and Cleanup
         run: python generate_excel_reports.py
 
