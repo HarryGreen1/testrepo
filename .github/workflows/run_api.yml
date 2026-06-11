@@ -1,9 +1,6 @@
 name: Fetch and Build Team AI Reports
 
 on:
-  push:
-    branches:
-      - main
   schedule:
     - cron: '0 0 * * *'
 
